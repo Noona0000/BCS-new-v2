@@ -15,8 +15,8 @@ if (GOOGLE_SHEETS_WEB_APP_URL) {
   });
 } else {
   render(localRecords);
-  status.textContent = 'แสดงข้อมูลในเครื่อง · ตั้งค่า Google Sheets เพื่อใช้ฐานข้อมูลร่วมกัน';
-  document.querySelector('#summary-setup').textContent = 'ยังไม่ได้เชื่อม Google Sheets — ตั้งค่า URL ของ Web App ใน google-sheets-config.js เพื่อบันทึกและอ่านข้อมูลจากชีต';
+  status.textContent = '';
+  document.querySelector('#summary-setup').textContent = 'ตั้งค่า Google Sheets';
   document.querySelector('#summary-setup').hidden = false;
 }
 
