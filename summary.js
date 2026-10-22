@@ -16,7 +16,7 @@ if (GOOGLE_SHEETS_WEB_APP_URL) {
 } else {
   render(localRecords);
   status.textContent = '';
-  document.querySelector('#summary-setup').textContent = 'ตั้งค่า Google Sheets';
+  document.querySelector('#summary-setup').textContent = '';
   document.querySelector('#summary-setup').hidden = false;
 }
 
